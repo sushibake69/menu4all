@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu4All</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/output.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        greatvibes: ['"Great Vibes"', 'serif'],
+                    },
+                },
+            }
+        }
+    </script>
+    
+    <script defer src="https://unpkg.com/alpinejs-notify@latest/dist/notifications.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@latest/dist/cdn.min.js"></script>
+
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+    <nav class="bg-orange-900">
+        <div class="max-w-screen-lg mx-auto p-4">
+            <div class="flex justify-between items-center">
+                <span>
+                    <a href="menu4all.html" class="text-6xl text-white font-greatvibes">Menu 4 All</a>
+                </span>
+                <ul class="flex gap-4">
+                    <li><a href="about.html" class="text-3xl font-medium text-white transition">Contact</a></li>
+                    <li><a href="about.html" class="text-3xl font-medium text-white transition">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="max-w-screen-lg mx-auto">
+        <!-- Ads -->
+        <div class="grid grid-cols-1 h-52 rounded-lg m-5 border bg-gray-200">
+            <a href="https://bit.ly/4bSat9q">
+                <img src="" alt="Google ads">
+                <!-- Responsive Horizontal Ad -->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449401655272885"
+                    crossorigin="anonymous"></script>
+                <!-- Responsive Horizontal Ad -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6449401655272885" data-ad-slot="9078636752"
+                    data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </a>
+        </div>
+
+        <div class="p-5">
+            <h1 class="text-3xl pb-5 font-medium">Hot Coffee</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Hot Coffee/IMG_1538.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Spanish Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱68.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Hot Coffee/IMG_1516.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Mocha Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱68.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <hr class="font-medium my-8">
+        <div class="p-5">
+            <h1 class="text-3xl pb-5 font-medium">Iced Coffee</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1515.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Spanish Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1517.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Caramel Macchiato</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1519.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Hazel Nut Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1520.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Salted Caramel</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1521.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Strawberry Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Ice Coffee/IMG_1522.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">White Mocha Latte</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <hr class="font-medium my-8">
+        <div class="p-5">
+            <h1 class="text-3xl pb-5 font-medium">Non Coffee</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Non-Coffee/IMG_1523.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Milky Strawberry</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Non-Coffee/IMG_1524.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Strawberry Matcha</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Non-Coffee/IMG_1525.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Chocolate Float</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Non-Coffee/IMG_1526.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Milky Matcha</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <hr class="font-medium my-8">
+        <div class="p-5">
+            <h1 class="text-3xl pb-5 font-medium">Frappe</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Frappe/IMG_1527.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Mango Graham</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Frappe/IMG_1528.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Java Chip</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Frappe/IMG_1529.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Vanilla Matcha</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Frappe/IMG_1530.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Strawberry</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱108.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <hr class="font-medium my-8">
+        <div class="p-5">
+                <h1 class="text-3xl pb-5 font-medium">Croffles</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1532.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Plain</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1533.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Nuttella</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1534.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Cookies and Cream</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1535.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Creamy Strawberry</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1536.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Creamy Matcha</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Croffles/IMG_1537.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Nuttlla Almond</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱98.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <div class="p-5">
+            <h1 class="text-3xl pb-5 font-medium">Add-ons</h1>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-5 lg:gap-8">
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1539.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Sauce</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱28.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1540.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Sugar</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱28.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1541.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Espresso Shot</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱38.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1542.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Milk</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱28.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1543.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Almond Milk</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱28.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+                <figure class="rounded-lg bg-white transition shadow-sm hover:shadow-lg">
+                    <img src="images/Add-ons/IMG_1544.JPG" alt="" class="rounded-t-lg">
+                    <div class="grid gap-y-5 p-3">
+                        <figcaption class="text-2xl font-medium">Ice Cream</figcaption>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl rounded-lg text-lime-800 font-medium">₱28.00</span>
+                            <div class="">
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                                </a>
+                                <a href="" class="text-center hover:bg-gray-200 p-4 rounded-full">
+                                    <i class="fa-regular fa-heart text-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="bg-orange-900 transition hover:bg-orange-800 rounded-lg text-white text-2xl font-medium p-3">Buy
+                            now</button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+
+        <!-- <div class="grid grid-cols-1 h-52 rounded-lg border">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449401655272885"
+                crossorigin="anonymous"></script>
+            <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-f8+5e+78-c8-2t"
+                data-ad-client="ca-pub-6449401655272885" data-ad-slot="3588939689">
+            </ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div> -->
+    </main>
+
+    <dialog id="my_modal_1" class="modal">
+        <div class="modal-box p-5 rounded-lg">
+            <h3 class="font-bold text-lg">Join now with our new coffee</h3>
+            <p class="py-4">Kindly send us a feedback :)</p>
+            <div class="modal-action">
+                <form action="" method="dialog" class="bg-white mt-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="subject" class="block text-gray-700 text-sm font-bold mb-2">Subject:</label>
+                        <input type="text" id="subject" name="subject"
+                            class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                        <textarea id="message" name="message" rows="5"
+                            class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <div class="grid">
+                        <button type="submit"
+                            class="btn bg-orange-800 text-white px-6 py-4 rounded-lg hover:bg-orange-900 focus:outline-none focus:ring-2 focus:ring-orange-500">Submit</button>
+                            <button class="btn px-6 py-4 rounded-lg">Close</button>
+                    </div>
+                </form>
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    <footer class="bg-gradient-to-b from-orange-800 to-orange-900 p-12 mt-8">
+        <div class="max-w-screen-lg mx-auto mt-auto grid grid-cols-2 lg:grid-cols-3 lg:gap-3 gap-3">
+            <div class="grid grid-cols-1">
+                <h1 class="text-3xl text-white font-medium leading-relaxed">Let's get in-touch</h1>
+                <span>
+                    <a href="about.html" class="text-lg text-white font-medium hover:text-indigo-500 hover:bg-gray-200 p-2 rounded-lg leading-loose">Contact</a>
+                </span>
+                <span>
+                    <a href="about.html" class="text-lg text-white font-medium hover:text-indigo-500 hover:bg-gray-200 p-2 rounded-lg leading-loose">About</a>
+                </span>
+                <span class="text-lg text-white font-medium p-2 leading-loose">All rights reserved 2024.</span>
+            </div>
+            <div class="grid grid-cols-1">
+                <h1 class="text-3xl text-white font-medium">Built with</h1>
+                <span>
+                    <a href="https://tailwindcss.com/"
+                        class="text-lg text-white font-medium hover:text-indigo-500 hover:bg-gray-200 p-2 rounded-lg leading-loose">Tailwind
+                        CSS</a>
+                </span>
+                <span>
+                    <a href="https://html.com"
+                        class="text-lg text-white font-medium hover:text-indigo-500 hover:bg-gray-200 p-2 rounded-lg leading-loose">HTML 5</a>
+                </span>
+                <span>
+                    <a href="https://js.hyperui.dev"
+                        class="text-lg text-white font-medium hover:text-indigo-500 hover:bg-gray-200 p-2 rounded-lg leading-loose">HyperUI JS</a>
+                </span>
+            </div>
+            <div class="grid items-center  justify-center mt-5 lg:mt-0">
+                <a href="menu4all.html" class="text-7xl text-white font-medium font-greatvibes">Menu4All</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d85f9b317d.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Show the modal when the page loads
+        window.addEventListener('load', function () {
+            var modal = document.getElementById('my_modal_1');
+            modal.showModal();
+        });
+    </script>
+</body>
+</html>
